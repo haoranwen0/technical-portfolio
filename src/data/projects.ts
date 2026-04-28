@@ -65,7 +65,7 @@ export const projects: Project[] = [
     slug: "peasy",
     name: "peasy",
     year: "2023",
-    status: "1k+ dl",
+    status: "1.5k+ dl",
     description:
       "A VSCode extension for visualizing P-language error traces in distributed systems. Open-sourced JSON output upstream to the P repo.",
     stack: ["vscode ext", "p-lang", "typescript"],
@@ -98,9 +98,7 @@ export const projects: Project[] = [
     description:
       "A RISC-V custom microcomputer with AES hardware acceleration in SystemVerilog. Built the AES core handling full encryption and decryption.",
     stack: ["systemverilog", "risc-v", "aes", "fpga"],
-    links: [
-      { label: "github", href: "https://github.com/kosinw/orca" },
-    ],
+    links: [{ label: "github", href: "https://github.com/kosinw/orca" }],
   },
   {
     num: "07",
@@ -111,9 +109,7 @@ export const projects: Project[] = [
     description:
       "Built when GPT-3 first dropped. An LLM-driven web builder that generated UI components from prompts and let users place them via drag-and-drop. Part of MIT CCI's research into whether AI–human pairings can hit 10× efficiency at a given task.",
     stack: ["gpt-3", "react", "user studies"],
-    links: [
-      { label: "paper", href: "https://arxiv.org/abs/2206.12390" },
-    ],
+    links: [{ label: "paper", href: "https://arxiv.org/abs/2206.12390" }],
   },
   {
     num: "08",
